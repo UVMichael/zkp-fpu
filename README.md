@@ -1,5 +1,5 @@
 # Overview
-This project goes over Writing and Proving Arithmetic Circuits using circom and snarkjs. This project translates the floating point arithmetic outlined in The `src/` directory has a python program `float_add.py` that implements the floating-point addition logic. Into a ZKP circuit writen at `float_add.circom`. this ciruit as a optimal amount of contstrains for subpart of the floating point arithmetic calculation. There is also  two files `proof.json` and `verification_key.json` which are a `Groth16` proof that proves $7 \times 17 \times 19 = 2261$ using the `SmallOddFactorization` circuit implemented in `circuits/example.circom` and give an example on how to prove and arithmetic circuit.
+This project goes over writing and proving arithmetic circuits using Circom and Snarkjs. This project translates the floating point arithmetic outlined in The `src/` directory has a python program `float_add.py` that implements the floating-point addition logic. Into a ZKP circuit writen at `float_add.circom`. This ciruit as a optimal amount of contstrains for subpart of the floating point arithmetic calculation. There is also  two files `proof.json` and `verification_key.json` which are a `Groth16` proof that proves $7 \times 17 \times 19 = 2261$ using the `SmallOddFactorization` circuit implemented in `circuits/example.circom`.
 
 ## Setup
 
